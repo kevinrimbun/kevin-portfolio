@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: rgb(235, 52, 52);
+    transition: 0.5s;
+}
+
+a button {
+    border-radius: 30px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.5s;
+}
+a button:hover{
+    transform: scale(1.1);
+    color: rgb(235, 52, 52);
+}
