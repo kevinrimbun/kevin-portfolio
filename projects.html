@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styling/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 </head>
 <body>
 
@@ -15,23 +16,110 @@
         <div class="navbar">
             <nav class="fixed-top">
                 <h2 class="logo">Kevin Rimbun</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="index.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </section>
+    <section class="projects-page">
+        <div class="navbar">
+            <div class="all-navbar">
+                <nav class="fixed-top navigation">
+                    <h2 class="logo">Kevin Rimbun</h2>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <label id="nav-bars">
+                        <i class="bi bi-list"></i>
+                    </label>
+                </nav>
+            </div>
+        </div>
+    </section>
 
     <section class="projects-content">
+        <div class="projects-sportid">
+            <h1>SportID</h1>
+            <div class="img-sportid">
+                <img src="./image/sportid.png" alt="">
+            </div>
+            <div class="text-sportid">
+                <h4>Explanation</h4>
+                <p>The SportID team was formed in December 2021 - January 2022. This team was formed during the Mini Project, which was formed by SYNRGY Academy Batch GRAB to complement the ongoing Full Stack Web Pre Bootcamp. This SportID team also consists of 13 people and is divided into 3 teams consisting of the FE Team, BE Team, and UI/UX Team. SportID itself is a simple news portal that carries the theme of sports. In Team SportID, I became part of BE Team along with 5 of my friends.</p>
+                <h4>Technology Used</h4>
+                <ul>
+                    <li>PGAdmin</li>
+                    <li>Sequelize</li>
+                    <li>JQuery</li>
+                    <li>GIT</li>
+                    <li>NodeJS</li>
+                    <li>Heroku</li>
+                    <li>HTML CSS JS</li>
+                    <li>NPM</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="projects-comphy">
+            <h1>Comphy - Community Photography</h1>
+            <div class="img-comphy">
+                <img src="./image/comphy-pic.png" alt="">
+            </div>
+            <div class="text-comphy">
+                <h4>Explanation</h4>
+                <p>The Comphy team was formed in March 2022 - June 2022. This team was formed during the Final Project, which was formed by SYNRGY Academy Batch GRAB to complement the ongoing Main Bootcamp. The Comphy team also consists of 10 people and is divided into 5 teams consisting of the FE Team, BE Team, UI/UX Team, Android Team and QA Team. Comphy itself is a website and android application that carries the theme of the photography community. In Comphy, I was part of the QA Team with 1 of my friends.</p>
+                <h4>Android - Technology Used</h4>
+                <ul>
+                    <li>Kotlin</li>
+                    <li>Retrofit</li>
+                    <li>Espresso</li>
+                    <li>Glide</li>
+                    <li>Android Studio</li>
+                </ul>
+                <h4>Front End - Technology Used</h4>
+                <ul>
+                    <li>Next JS</li>
+                    <li>React JS</li>
+                    <li>Tailwind CSS</li>
+                    <li>Vercel</li>
+                    <li>Heroku</li>
+                </ul>
+                <h4>Back End - Technology Used</h4>
+                <ul>
+                    <li>Spring</li>
+                    <li>Hibernate</li>
+                    <li>Google Cloud</li>
+                    <li>Swagger</li>
+                    <li>Heroku</li>
+                    <li>JWT</li>
+                    <li>Midtrans</li>
+                </ul>
+                <h4>Quality Assurance - Technology Used</h4>
+                <ul>
+                    <li>Google Slides</li>
+                    <li>Google Sheets</li>
+                    <li>Google Cloud</li>
+                    <li>Postman</li>
+                    <li>Swagger</li>
+                    <li>Katalon</li>
+                </ul>
+            </div>
+        </div>
 
     </section>
 
     <section class="footer fixed-bottom">
         <div>Copyrights © Kevin Rimbun. All rights reserved</div>
     </section>
+
+
+    <script src="script.js"></script>
 </body>
 </html>

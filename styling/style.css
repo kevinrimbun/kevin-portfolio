@@ -5,6 +5,10 @@
     font-family: 'Ubuntu', sans-serif !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Home Section */
 .home {
     height: 100vh;
@@ -102,9 +106,6 @@ section .about-title {
     font-size: 23.5px;
     font-weight: 600;
 }
-.about-text p {
-    text-align: justify;
-}
 
 /* Projects Section */
 .projects {
@@ -178,6 +179,56 @@ section .contact-title {
     color: #ff0000;
 }
 
+/* Projects Content */
+.projects-sportid {
+    /* padding: 5px 5px 5px 5px; */
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 9%;
+    padding-right: 10%;
+}
+.projects-sportid h1 {
+    border-radius: 6px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.img-sportid img {
+    height: 50vh;
+    width: 50%;
+    border-radius: 6px;
+    padding-bottom: 2%;
+}
+.text-sportid p {
+    right: 50%;
+    text-align: justify;
+}
+.text-sportid h4 {
+    padding-right: 25%;
+}
+.projects-comphy {
+    padding-left: 10%;
+    padding-bottom: 9%;
+    padding-right: 10%;
+}
+.projects-comphy h1 {
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.img-comphy img {
+    height: 50vh;
+    width: 50%;
+    border-radius: 6px;
+    padding-bottom: 2%;
+}
+.text-comphy p {
+    right: 50%;
+    text-align: justify;
+}
+.text-comphy h4 {
+    padding-right: 25%;
+}
 
 /* Footer */
 .footer {
@@ -187,15 +238,7 @@ section .contact-title {
     text-align: center;
 }
 
-/* Projects Content */
-
-
 /* Responsive */
-/* Navbar */
-
-
-
-
 @media (max-width: 1048px) {
     h2 .logo {
         font-size: 32px;
@@ -208,6 +251,15 @@ section .contact-title {
         font-size: 17px;
     }
 }
+
+@media (max-width: 991px) {
+    .contact-logo {
+        display: block;
+        text-align: center;
+    }
+    
+}
+
 @media (max-width: 909px) {
     nav #nav-bars {
         display: block;
@@ -250,11 +302,18 @@ section .contact-title {
 }
 @media (max-width: 991px) {
     .about-pic img{
-        height: 30vh;
+        height: 50vh;
         width: 120%;
     }
     .about-text {
         padding-top: 5%;
+    }
+    .about-text .text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .p-text {
+        font-size: 15px;
     }
 }
 @media (max-width: 723px) {
@@ -265,6 +324,12 @@ section .contact-title {
         padding-left: 10%;
         position: absolute;
     }
+    .projects-sportid {
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-bottom: 9%;
+        padding-right: 10%;
+    }
 }
 @media (max-width: 604px) {
     .text-banner {
@@ -273,5 +338,56 @@ section .contact-title {
         padding-top: 100%;
         padding-left: 10%;
         position: absolute;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 20px;
+    }
+    .p-text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+    .text-banner {
+        color: white;
+        padding-top: 160%;
+        padding-left: 10%;
+        position: absolute;
+    }
+    .text-banner h4 {
+        font-size: 20px;
+    }
+    .text-banner h1 {
+        font-size: 25px;
+    }
+    .text-banner h3 {
+        font-size: 21px;
+    }
+
+    .about-pic {
+        padding-top: 30px;
+        padding-left: 6px;
+    }
+    .about-pic img{
+        height: 40vh;
+        width: 120%;
+    }
+    .text {
+        font-size: 7px;
+    }
+    .p-text {
+        font-size: 8px;
+    }
+    .projects-sportid {
+        padding-top: 20%;
+        padding-left: 10%;
+        padding-bottom: 9%;
+        padding-right: 10%;
+    }
+    .projects-comphy {
+        padding-bottom: 20%;
     }
 }
