@@ -43,3 +43,10 @@ nav ul li a:hover {
     border-radius: 6px;
 }
 
+/* Footer */
+.footer {
+    background: #222;
+    padding: 30px 25px;
+    color: white;
+    text-align: center;
+}
