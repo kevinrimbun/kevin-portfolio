@@ -172,7 +172,7 @@ section .contact-title {
     color: #25D366;
 }
 .github a:hover {
-    color: black;
+    color: #F05030;
 }
 .instagram a:hover {
     /* color: linear-gradient(3deg, #515bd4, #8134af, #dd2a7b, #feda77, #f58529); */
@@ -208,12 +208,8 @@ section .contact-title {
 .text-sportid h4 {
     padding-right: 25%;
 }
-/* .btn-projects {
-    padding: 25px;
-    display: flex;
-} */
+
 .btn-projects-content button{
-    /* justify-content: center; */
     border-radius: 30px;
     background: transparent;
     border-color: 222;
