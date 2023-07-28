@@ -388,11 +388,11 @@ section .contact-title {
     }
 
     .about-pic {
-        padding-top: 30px;
+        padding-top: 80px;
         padding-left: 6px;
     }
     .about-pic img{
-        height: 40vh;
+        height: 70%;
         width: 120%;
     }
     .text {
