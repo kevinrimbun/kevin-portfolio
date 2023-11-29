@@ -79,7 +79,7 @@ nav #nav-bars {
 
 /* About Section */
 .about {
-    padding: 30px 25px;
+    padding: 30px 20px;
 }
 section .about-title {
     text-align: center;
@@ -92,7 +92,7 @@ section .about-title {
     font-weight: 600;
 }
 .about-pic img {
-    height: 350px;
+    height: 450px;
     width: 350px;
     border-radius: 6px;
 }
@@ -100,7 +100,7 @@ section .about-title {
     padding-top: 30px;
 }
 .about-text {
-    padding-top: 8.5%;
+    padding: 10% 10px;
 }
 .p-text {
     text-align: justify;
