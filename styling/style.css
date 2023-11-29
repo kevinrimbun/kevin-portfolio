@@ -178,8 +178,8 @@ section .contact-title {
     /* color: linear-gradient(3deg, #515bd4, #8134af, #dd2a7b, #feda77, #f58529); */
     color: #8a3ab9;
 }
-.youtube a:hover {
-    color: #ff0000;
+.linkedin a:hover {
+    color: #0a66c2;
 }
 
 /* Projects Content  Projects.html*/
